@@ -39,9 +39,9 @@ func main() {
 
 	vanity.ForEachFile(files, vanity.TurnOffGogoImport)
 
-	vanity.ForEachFile(files, vanity.TurnOnMarshalerAll)
-	vanity.ForEachFile(files, vanity.TurnOnSizerAll)
-	vanity.ForEachFile(files, vanity.TurnOnUnmarshalerAll)
+//	vanity.ForEachFile(files, vanity.TurnOnMarshalerAll)
+//	vanity.ForEachFile(files, vanity.TurnOnSizerAll)
+//	vanity.ForEachFile(files, vanity.TurnOnUnmarshalerAll)
 
 	resp := command.Generate(req)
 	command.Write(resp)
